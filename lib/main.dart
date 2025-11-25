@@ -4,6 +4,8 @@ import 'package:sqflite/sqflite.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 import 'package:test_/providers/user_providers.dart';
 import 'package:test_/screens/home_screen.dart';
+import 'package:user_data_app/main.dart';
+
 
 
 void main() async {
