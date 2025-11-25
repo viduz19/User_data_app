@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   leading: CircleAvatar(
                     backgroundImage: CachedNetworkImageProvider(user.profileImage),
                   ),
-                  title: Text(user.fullName, style: TextStyle(color: Colors.white)),
+                  title: Text(user.fullName, style: TextStyle(color: Colors.grey)),
                   subtitle: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
